@@ -44,7 +44,7 @@ public class Database {
     }
 
     private static String getDbString(String user, String password) {
-        return "jdbc:mysql://localhost/cheese_discord_bot_data?user=" + user +"&password=" + password;
+        return "jdbc:mysql://192.168.178.41/cheese_discord_bot_data?user=" + user +"&password=" + password;
     }
 
 }
